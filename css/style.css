@@ -1,0 +1,82 @@
+/* this is my Css file */
+body {
+  
+    background-color:blanchedalmond;
+    color:#404040;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    font-size: 18px;
+
+}
+header, footer {
+    width:960px;
+    background:rgb(235, 236, 233);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
+    border-bottom: 3px dotted black;
+  }
+  main {
+
+  width:960px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-left: 0; 
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  
+  /* CLASS Selector (has a .dot) */
+  .site-title {
+    color: #212191;
+  }
+  
+  /* ID Selector (has a #hashtag) */
+  #articletwo {
+    background: rgb(223, 199, 199);
+    padding: 10px;
+    font-size: 80%;
+    border: 1px dotted black; 
+  }
+  
+
+  ul li{
+      list-style-type:square;
+  }
+  .hobby ul li:nth-child(odd){
+    background-color: lightblue;
+}
+nav{
+    list-style: none;
+}
+nav ul li a{
+    display: inline-block;
+    background:palevioletred;
+    border: 1px green solid;
+    text-decoration: none;
+    padding: 10px;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+  background-color: aquamarine;
+}
+
+  #my-image{
+      box-shadow: 0 0 2px 1px black;
+  }
+
+
+
+  
